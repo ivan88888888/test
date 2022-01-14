@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icecream</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+
+<!-- HEADER -->
+
+<header class="header">
+    <div class="header__container container">
+        <a href="">
+           <img src="./images/logo-icecream.svg" alt="">
+        </a>
+
+        <button type="button" class="menu-toggle js-open-menu icon-menu" aria-expanded="false" aria-label="mobil-menu">
+            <svg width="20" height="12">
+                <use href="./images/icons.svg#icon-menu-svg"></use>
+            </svg>
+        </button>
+
+            <div class="menu-container js-menu-container" id="mobil-menu">
+                <button type="button" class="menu-toggle js-close-menu icon-menu-close">
+                <svg width="20" height="12">
+                    <use href="./images/icons.svg#icon-close-svg"></use>
+                </svg>
+                </button>
+
+                <button type="button" class="btn-buy">Buy now</button>
+
+                <nav class="header-nav">
+                    <ul>
+                        <li class="header-nav__item"> <a href="" class="header-nav__link" >Home</a></li>
+                        <li class="header-nav__item"> <a href="" class="header-nav__link" >About us</a></li>
+                        <li class="header-nav__item"> <a href="" class="header-nav__link" >How it’s made?</a></li>
+                        <li class="header-nav__item"> <a href="" class="header-nav__link" >Our products</a></li>
+                        <li class="header-nav__item"> <a href="" class="header-nav__link" >Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+    </div>
+</header>  
+
+<script src="./js/modal.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
+<script defer src="js/mobile-menu.js"></script>
+    
+</body>
+</html>
