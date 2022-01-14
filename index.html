@@ -11,16 +11,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500;700;900&family=Titan+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
 
-<!-- HEADER -->
+<!-- Header -->
 
 <header class="header">
     <div class="header__container container">
         <a href="">
-           <img src="./images/logo-icecream.svg" alt="">
+            <img src="./images/logo-icecream.svg" alt="">
         </a>
 
         <button type="button" class="menu-toggle js-open-menu icon-menu" aria-expanded="false" aria-label="mobil-menu">
@@ -29,28 +30,63 @@
             </svg>
         </button>
 
-            <div class="menu-container js-menu-container" id="mobil-menu">
-                <button type="button" class="menu-toggle js-close-menu icon-menu-close">
+        <div class="header-button">
+            <button type="button" class="btn-buy-tablet">Buy now
+                <svg class="btn-buy-svg" width="4.68" height="8">
+                    <use href="./images/icons.svg#icon-btn-buy"></use>
+                </svg>
+            </button>
+        </div>
+
+
+        <div class="menu-container js-menu-container" id="mobil-menu">
+            <button type="button" class="menu-toggle js-close-menu icon-menu-close">
                 <svg width="20" height="12">
                     <use href="./images/icons.svg#icon-close-svg"></use>
                 </svg>
-                </button>
+            </button>
 
-                <button type="button" class="btn-buy">Buy now</button>
 
-                <nav class="header-nav">
-                    <ul>
-                        <li class="header-nav__item"> <a href="" class="header-nav__link" >Home</a></li>
-                        <li class="header-nav__item"> <a href="" class="header-nav__link" >About us</a></li>
-                        <li class="header-nav__item"> <a href="" class="header-nav__link" >How it’s made?</a></li>
-                        <li class="header-nav__item"> <a href="" class="header-nav__link" >Our products</a></li>
-                        <li class="header-nav__item"> <a href="" class="header-nav__link" >Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <button type="button" class="btn-buy">Buy now
+                <svg class="btn-buy-svg" width="4.68" height="8">
+                    <use href="./images/icons.svg#icon-btn-buy"></use>
+                </svg>
+            </button>
+
+
+            <nav class="header-nav">
+                <ul class="header-nav__list">
+                    <li class="header-nav__item"> <a href="" class="header-nav__link">Home</a></li>
+                    <li class="header-nav__item"> <a href="" class="header-nav__link">About us</a></li>
+                    <li class="header-nav__item"> <a href="" class="header-nav__link">How it’s made?</a></li>
+                    <li class="header-nav__item"> <a href="" class="header-nav__link">Our products</a></li>
+                    <li class="header-nav__item"> <a href="" class="header-nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
 
     </div>
-</header>  
+</header>
+
+<main>
+<!-- Hero -->
+<section class="hero overlay">
+    <h1 class="hero-title">ice cream made with
+        <span class="hero-title-text">passion</span>
+    </h1>
+
+    <ul class="hero__item">
+        <li class="hero__list">
+            <button type="button" class="hero-button">Products</button>
+        </li>
+        <li class="hero__list">
+            <button type="button" class="hero-button-second">How it’s made?</button>
+        </li>
+    </ul>
+</section>
+</main>
+
+
 
 <script src="./js/modal.js"></script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
