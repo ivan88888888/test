@@ -1,26 +1,36 @@
 .hero {
-padding: 0px 20px;
+    padding-top: 137px;
+    padding-bottom: 160px;
+    padding-left: 20px;
+    padding-right: 20px;
 
     @media screen and (min-width: 768px) {
-    padding: 0px 34px;
+    padding-top: 15px;
+    padding-bottom: 173px;
     }
 
     @media screen and (min-width: 1200px) {
-    padding: 0px 115px;
+    padding-top: 84px;
+    padding-bottom: 357px;
     }
 }
 
 .overlay {
-    margin: 27px 0px 75px 16px;
-    background-image: url(../images/Ellipse.jpg);
+background-image: 
+url(../images/ice.jpg),
+url(../images/Ellipse.jpg);
+
+background-position: bottom right 32px, right top 27px;
+background-repeat: no-repeat;
 }
 
 .hero-title {
-margin: 137px 0px 19px 0px;
-padding: 0px;
+margin: 0px;
+margin-bottom: 19px;
 
 width: 218px;
 height: 106px;
+
 font-family: Titan One;
 font-style: normal;
 font-weight: 400;
@@ -31,8 +41,6 @@ text-transform: uppercase;
 color: #FFFFFF;
 
     @media screen and (min-width: 768px) {
-    margin: 15px 0px 20px 0px;
-
     width: 162px;
     height: 80px;
 
@@ -41,8 +49,6 @@ color: #FFFFFF;
     }
 
     @media screen and (min-width: 1200px) {
-    margin: 84px 0px 25px 0px;
-
     width: 277px;
     height: 137px;
 
@@ -57,9 +63,9 @@ height: 106px;
 
 font-family: Titan One;
 font-style: normal;
-font-weight: normal;
-font-size: 48px;
-line-height: 96.5%;
+font-weight: 400;
+font-size: 46px;
+line-height: 0.965;
 
 text-transform: uppercase;
 
@@ -85,14 +91,6 @@ color: #D41443;
 
 .hero__item {
     display: flex;
-
-    @media screen and (min-width: 768px) {
-    margin-bottom: 19px;
-    }
-
-    @media screen and (min-width: 1200px) {
-    margin-bottom: 56px;
-    }
 }
 
 .hero__list:not(:last-child) {
