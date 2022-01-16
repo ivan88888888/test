@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
   header {
-    position: relative;
+    position: absolute;
   }
 }
 
@@ -308,8 +308,6 @@ img {
 
 @media screen and (min-width: 768px) {
   .hero {
-    position: absolute;
-    z-index: 2;
     padding-top: 15px;
     padding-bottom: 173px;
   }
