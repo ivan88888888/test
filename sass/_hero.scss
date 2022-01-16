@@ -1,8 +1,8 @@
 .hero {
     padding-top: 137px;
     padding-bottom: 160px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
 
     @media screen and (min-width: 768px) {
     padding-top: 15px;
@@ -17,11 +17,31 @@
 
 .overlay {
 background-image: 
-url(../images/ice.jpg),
-url(../images/Ellipse.jpg);
+url(../images/ice.png),
+url(../images/ellipse.png);
 
 background-position: bottom right 32px, right top 27px;
 background-repeat: no-repeat;
+
+    @media screen and (min-width: 768px) {
+    background-image: 
+    url(../images/tasty-tablet.png),
+    url(../images/ice-tablet.png),
+    url(../images/ellipse-tablet.png),
+    url(../images/milk-tablet.png);
+
+    background-position: bottom right 34px, bottom right 247px, bottom 46px right 137px, bottom 28px left 34px;
+    }
+
+    @media screen and (min-width: 1200px) {
+    background-image: 
+    url(../images/tasty-desctop.png),
+    url(../images/ice-desctop.png),
+    url(../images/ellipse-desctop.png),
+    url(../images/milk-desctop.png);
+
+    background-position: bottom right 109px, bottom right 450px, bottom 75px right 267px, bottom 45px left 77px;
+    }
 }
 
 .hero-title {
