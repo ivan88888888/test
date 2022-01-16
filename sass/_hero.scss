@@ -28,9 +28,17 @@ background-repeat: no-repeat;
     url(../images/tasty-tablet.png),
     url(../images/ice-tablet.png),
     url(../images/ellipse-tablet.png),
-    url(../images/milk-tablet.png);
+    url(../images/milk-tablet.png),
+    url(../images/16-tablet.png),
+    url(../images/23-tablet.png);
 
-    background-position: bottom right 34px, bottom right 247px, bottom 46px right 137px, bottom 28px left 34px;
+    background-position: 
+    bottom right 34px, 
+    bottom right 247px, 
+    bottom 46px right 137px, 
+    bottom 28px left 34px, 
+    right 34px top 94px, 
+    right 34px top 151px;
     }
 
     @media screen and (min-width: 1200px) {
@@ -38,9 +46,15 @@ background-repeat: no-repeat;
     url(../images/tasty-desctop.png),
     url(../images/ice-desctop.png),
     url(../images/ellipse-desctop.png),
-    url(../images/milk-desctop.png);
+    url(../images/milk-desctop.png),
+    url(../images/16-desctop.png),
+    url(../images/23-desctop.png);
 
-    background-position: bottom right 109px, bottom right 450px, bottom 75px right 267px, bottom 45px left 77px;
+    background-position: 
+    bottom right 109px, 
+    bottom right 450px, 
+    bottom 75px right 267px, 
+    bottom 45px left 77px;
     }
 }
 
@@ -111,6 +125,14 @@ color: #D41443;
 
 .hero__item {
     display: flex;
+
+    @media screen and (min-width: 768px) {
+    margin-bottom: 66px;
+    }
+
+    @media screen and (min-width: 1200px) {
+    margin-bottom: 112px;
+    }
 }
 
 .hero__list:not(:last-child) {
@@ -163,5 +185,30 @@ border-radius: 20px;
 
     font-size: 14px;
     line-height: 1.28;
+    }
+}
+
+.hero__text {
+margin: 0px;
+margin-left: 139px;
+
+width: 114px;
+height: 48px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: 400;
+font-size: 8px;
+line-height: 1.5;
+color: #FFFFFF;
+
+    @media screen and (min-width: 1200px) {
+    margin-left: 280px;
+
+    width: 200px;
+    height: 78px;
+
+    font-size: 14px;
+    line-height: 1.4;
     }
 }
