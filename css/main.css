@@ -328,8 +328,8 @@ img {
 
 @media screen and (min-width: 768px) {
   .overlay {
-    background-image: url(../images/tasty-tablet.png), url(../images/ice-tablet.png), url(../images/ellipse-tablet.png), url(../images/16-tablet.png), url(../images/23-tablet.png);
-    background-position: bottom right 34px, bottom right 247px, top 0px right 137px, right 34px top 94px, right 34px top 151px;
+    background-image: url(../images/tasty-tablet.png), url(../images/ice-tablet.png), url(../images/ellipse-tablet.png), url(../images/milk-tablet.png), url(../images/16-tablet.png), url(../images/23-tablet.png);
+    background-position: bottom right 34px,  bottom right 247px,  top 0px right 137px,  top 143px left 15px,  right 34px top 94px,  right 34px top 151px;
   }
 }
 
