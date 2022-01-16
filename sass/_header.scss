@@ -1,3 +1,9 @@
+header {
+  @media screen and (min-width: 768px) {
+  position: relative;
+  }
+}
+
 .header__container {
   display: flex;
   align-items: center;
